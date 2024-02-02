@@ -1,7 +1,6 @@
 import settings
 import discord
 from discord.ext import commands
-import utils
 
 logger = settings.logging.getLogger("bot")
 

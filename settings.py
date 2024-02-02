@@ -17,6 +17,7 @@ COGS_DIR = BASE_DIR / "cogs"
 
 PREFIX = "!"
 GUILDS_ID = discord.Object(id=int(os.getenv("GUILD")))
+FEEDBACK_CH = int(os.getenv("FEEDBACK_CH", 0))
 
 LOGGING_CONFIG = {
     "version": 1,
